@@ -6,7 +6,6 @@ body {
     padding: 0;
 }
 
-<<<<<<< HEAD
 /* Top bar (fixed and floats on scroll) */
 .top-bar {
     background-color: #f7f5f0;
@@ -29,54 +28,23 @@ h1 {
 }
 
 .floating-button {
-=======
-/* Styles for the top section (logo + floating button) */
-h1 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background-color: #f7f5f0;
-    padding: 10px 20px;
-    z-index: 10;  /* Makes sure it stays on top of other elements */
-}
-
-.floating-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
->>>>>>> 178741f9da7bae0b7f244b82d908376e97c43481
     background-color: #4c6a4c;  /* Hunter green with more blue */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-<<<<<<< HEAD
-=======
-    z-index: 10;
->>>>>>> 178741f9da7bae0b7f244b82d908376e97c43481
 }
 
 .floating-button:hover {
     background-color: #3b573b;  /* Darker shade on hover */
 }
 
-<<<<<<< HEAD
 /* Content sections */
 .container {
     display: flex;
     justify-content: space-between;
     margin: 80px 0;  /* Add top margin to create space below the fixed top bar */
-=======
-/* Two-column layout for each section */
-.container {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0;
->>>>>>> 178741f9da7bae0b7f244b82d908376e97c43481
 }
 
 .left {
