@@ -74,12 +74,12 @@ p {
 .cta-button {
     display: inline-block;
     margin-top: 10px;
-    padding: 1em 2em;
+    padding: 10px 30px 10px 30px;
     background-color: #485fa0;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.75em;  /* Increases text size */
+    font-size: 2em;  /* Increases text size */
 }
 
 .cta-button:hover {
