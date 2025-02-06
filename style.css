@@ -69,14 +69,14 @@ h1 {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #4c6a4c;  /* Hunter green with more blue */
+    background-color: #485fa0;  /* Hunter green with more blue */
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #3b573b;  /* Darker shade on hover */
+    background-color: #472c61;  /* Darker shade on hover */
 }
 .left img {
     width: 100%;  /* Make sure the image takes up the full width of its column */
