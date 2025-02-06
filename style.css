@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-    background-color: #FEEED2;
+    background-color: #FFFFFF;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
@@ -29,10 +29,9 @@ h1 {
 
 /* Floating button (positioned on the top-right with space adjustments) */
 .floating-button {
-    background-color: #4c6a4c;  /* Hunter green with more blue */
+    background-color: #485fa0;
     color: white;
     padding: 10px 30px 10px 30px;  /* Adjusted padding (more space on the right inside the button) */
-    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     position: fixed;
@@ -42,23 +41,29 @@ h1 {
 }
 
 .floating-button:hover {
-    background-color: #3b573b;  /* Darker shade on hover */
+    background-color: #472c61;  /* Darker shade on hover */
 }
 
 /* Content sections */
 .container {
     display: flex;
     justify-content: space-between;
-    margin: 80px 0;  /* Add top margin to create space below the fixed top bar */
+    align-items: center;
+    margin: 80px 0;  /* Adds vertical spacing between sections */
 }
 
+/* Left column (image) */
 .left {
     width: 45%;
+    padding-left: 40px;  /* Adds space to the left of the image */
 }
 
+/* Right column (text) */
 .right {
     width: 45%;
+    padding-right: 40px;  /* Adds space to the right of the text */
 }
+
 
 .cta-button {
     display: inline-block;
