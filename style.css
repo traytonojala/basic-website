@@ -27,6 +27,10 @@ h1 {
     margin: 0;
 }
 
+p {
+    font-size: 1.8rem;  /* Adjust size as needed */
+}
+
 /* Floating button (positioned on the top-right with space adjustments) */
 .floating-button {
     background-color: #485fa0;
