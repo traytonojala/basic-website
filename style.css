@@ -80,9 +80,8 @@ h1 {
 .left img {
     width: 100%;  /* Make sure the image takes up the full width of its column */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners */
     object-fit: cover; /* Ensures the image covers the space nicely */
-    max-height: 400px; /* Optional: Prevents the image from getting too tall */
+    max-height: 1000px; /* Optional: Prevents the image from getting too tall */
 }
 
 /* Optional: Responsive design for mobile */
