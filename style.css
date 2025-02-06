@@ -54,14 +54,14 @@ h1 {
 
 /* Left column (image) */
 .left {
-    width: 45%;
-    padding-left: 40px;  /* Adds space to the left of the image */
+    width: 30%;
+    padding-left: 80px;  /* Adds space to the left of the image */
 }
 
 /* Right column (text) */
 .right {
-    width: 45%;
-    padding-right: 40px;  /* Adds space to the right of the text */
+    width: 30%;
+    padding-right: 80px;  /* Adds space to the right of the text */
 }
 
 
